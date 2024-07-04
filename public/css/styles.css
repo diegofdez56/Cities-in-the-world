@@ -1,0 +1,37 @@
+@import url(bootstrap.css);
+
+.carousel-item {
+    height: 600px;
+
+    .d-block {
+        height: 800px;
+    }
+}
+
+#contenedor {
+    gap: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#cartas {
+    gap: 2rem;
+}
+#box-restaurantes{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    #cartita {
+        border: none;
+    }
+
+    #restaurante {
+        padding: 1rem;
+    }
+}
+
+#footer-icons {
+    margin: 0;
+    justify-content: end !important;
+    align-items: end !important;
+}
